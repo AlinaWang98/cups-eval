@@ -1,0 +1,30 @@
+{
+  "created_at_unix": 1785283742,
+  "cache_dir": "data/hf_cache",
+  "datasets": [
+    {
+      "label": "gsm8k",
+      "hf_name": "openai/gsm8k",
+      "config_name": "main",
+      "local_path": "data/datasets/openai__gsm8k/main",
+      "status": "downloaded",
+      "splits": {
+        "train": 7473,
+        "test": 1319
+      },
+      "elapsed_seconds": 10.89
+    },
+    {
+      "label": "mmlu_pro",
+      "hf_name": "TIGER-Lab/MMLU-Pro",
+      "config_name": "default",
+      "local_path": "data/datasets/TIGER-Lab__MMLU-Pro/default",
+      "status": "existing_verified",
+      "splits": {
+        "test": 12032,
+        "validation": 70
+      },
+      "elapsed_seconds": 0.01
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+strategy,n,direct_accuracy,strategy_accuracy,accuracy_delta,gains,harms,both_correct,both_wrong,discordant,exact_p_value,bootstrap_ci_low,bootstrap_ci_high,direct_cost_usd,strategy_cost_usd,cost_multiplier,significant_at_0_05
+cot,100,0.44,0.43,-0.010000000000000009,2,3,41,54,5,1.0,-0.06,0.03,0.0048777,0.0049851,1.0220185743280645,False
+debate_2_judge,100,0.44,0.54,0.10000000000000003,12,2,42,44,14,0.012939453125000071,0.03,0.17,0.0048777,0.016871250000000008,3.458853558029401,True
+planner_verifier,100,0.44,0.57,0.12999999999999995,14,1,43,42,15,0.0009765624999999976,0.06,0.2,0.0048777,0.010954949999999996,2.245925333661356,True

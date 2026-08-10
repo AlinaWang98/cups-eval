@@ -1,0 +1,16 @@
+dataset_name: medqa
+dataset:
+  type: medqa
+  name: GBaker/MedQA-USMLE-4-options
+  local_path: data/datasets/GBaker__MedQA-USMLE-4-options/default
+  split: test
+  sample_size: 100
+  seed: 42
+run:
+  max_usd: 8.0
+  strategy_timeout_seconds: 240
+  strategies:
+    - direct
+    - cot
+    - debate_2_judge
+    - planner_verifier

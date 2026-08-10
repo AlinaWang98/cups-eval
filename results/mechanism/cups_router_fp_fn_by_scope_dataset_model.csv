@@ -1,0 +1,97 @@
+scope_id,scope_label,selection_type,dataset,model,policy,n,true_positive,false_negative,false_positive,true_negative,evaluation_regime,precision,recall,false_positive_rate,false_negative_rate,escalation_rate
+medical_glm_kimi,Medical GLM/Kimi,best_accuracy,medmcqa,glm_5_2,cups_lambda_0.02,100,7,1,21,71,item_oof,0.25,0.875,0.22826086956521738,0.125,0.28
+medical_glm_kimi,Medical GLM/Kimi,best_accuracy,medmcqa,kimi_k3,cups_lambda_0.02,100,6,1,8,85,item_oof,0.42857142857142855,0.8571428571428571,0.08602150537634409,0.14285714285714285,0.14
+medical_glm_kimi,Medical GLM/Kimi,best_accuracy,medqa,glm_5_2,cups_lambda_0.02,100,15,2,21,62,item_oof,0.4166666666666667,0.8823529411764706,0.25301204819277107,0.11764705882352941,0.36
+medical_glm_kimi,Medical GLM/Kimi,best_accuracy,medqa,kimi_k3,cups_lambda_0.02,100,5,1,8,86,item_oof,0.38461538461538464,0.8333333333333334,0.0851063829787234,0.16666666666666666,0.13
+medical_glm_kimi,Medical GLM/Kimi,best_accuracy,medxpertqa_text,glm_5_2,cups_lambda_0.02,100,9,3,54,34,item_oof,0.14285714285714285,0.75,0.6136363636363636,0.25,0.63
+medical_glm_kimi,Medical GLM/Kimi,best_accuracy,medxpertqa_text,kimi_k3,cups_lambda_0.02,100,8,6,29,57,item_oof,0.21621621621621623,0.5714285714285714,0.3372093023255814,0.42857142857142855,0.37
+medical_glm_kimi,Medical GLM/Kimi,best_accuracy,pubmedqa,glm_5_2,cups_lambda_0.02,100,3,3,18,76,item_oof,0.14285714285714285,0.5,0.19148936170212766,0.5,0.21
+medical_glm_kimi,Medical GLM/Kimi,best_accuracy,pubmedqa,kimi_k3,cups_lambda_0.02,100,0,4,2,94,item_oof,0.0,0.0,0.020833333333333332,1.0,0.02
+medical_glm_kimi,Medical GLM/Kimi,best_vs_cot_cpc,medmcqa,glm_5_2,cups_lambda_0.02,100,7,1,21,71,item_oof,0.25,0.875,0.22826086956521738,0.125,0.28
+medical_glm_kimi,Medical GLM/Kimi,best_vs_cot_cpc,medmcqa,kimi_k3,cups_lambda_0.02,100,6,1,8,85,item_oof,0.42857142857142855,0.8571428571428571,0.08602150537634409,0.14285714285714285,0.14
+medical_glm_kimi,Medical GLM/Kimi,best_vs_cot_cpc,medqa,glm_5_2,cups_lambda_0.02,100,15,2,21,62,item_oof,0.4166666666666667,0.8823529411764706,0.25301204819277107,0.11764705882352941,0.36
+medical_glm_kimi,Medical GLM/Kimi,best_vs_cot_cpc,medqa,kimi_k3,cups_lambda_0.02,100,5,1,8,86,item_oof,0.38461538461538464,0.8333333333333334,0.0851063829787234,0.16666666666666666,0.13
+medical_glm_kimi,Medical GLM/Kimi,best_vs_cot_cpc,medxpertqa_text,glm_5_2,cups_lambda_0.02,100,9,3,54,34,item_oof,0.14285714285714285,0.75,0.6136363636363636,0.25,0.63
+medical_glm_kimi,Medical GLM/Kimi,best_vs_cot_cpc,medxpertqa_text,kimi_k3,cups_lambda_0.02,100,8,6,29,57,item_oof,0.21621621621621623,0.5714285714285714,0.3372093023255814,0.42857142857142855,0.37
+medical_glm_kimi,Medical GLM/Kimi,best_vs_cot_cpc,pubmedqa,glm_5_2,cups_lambda_0.02,100,3,3,18,76,item_oof,0.14285714285714285,0.5,0.19148936170212766,0.5,0.21
+medical_glm_kimi,Medical GLM/Kimi,best_vs_cot_cpc,pubmedqa,kimi_k3,cups_lambda_0.02,100,0,4,2,94,item_oof,0.0,0.0,0.020833333333333332,1.0,0.02
+medical_glm_kimi,Medical GLM/Kimi,best_accuracy,medmcqa,glm_5_2,cups_lambda_0.05,100,7,1,21,71,leave_one_dataset_model_out,0.25,0.875,0.22826086956521738,0.125,0.28
+medical_glm_kimi,Medical GLM/Kimi,best_accuracy,medmcqa,kimi_k3,cups_lambda_0.05,100,5,2,2,91,leave_one_dataset_model_out,0.7142857142857143,0.7142857142857143,0.021505376344086023,0.2857142857142857,0.07
+medical_glm_kimi,Medical GLM/Kimi,best_accuracy,medqa,glm_5_2,cups_lambda_0.05,100,14,3,11,72,leave_one_dataset_model_out,0.56,0.8235294117647058,0.13253012048192772,0.17647058823529413,0.25
+medical_glm_kimi,Medical GLM/Kimi,best_accuracy,medqa,kimi_k3,cups_lambda_0.05,100,5,1,3,91,leave_one_dataset_model_out,0.625,0.8333333333333334,0.031914893617021274,0.16666666666666666,0.08
+medical_glm_kimi,Medical GLM/Kimi,best_accuracy,medxpertqa_text,glm_5_2,cups_lambda_0.05,100,8,4,43,45,leave_one_dataset_model_out,0.1568627450980392,0.6666666666666666,0.48863636363636365,0.3333333333333333,0.51
+medical_glm_kimi,Medical GLM/Kimi,best_accuracy,medxpertqa_text,kimi_k3,cups_lambda_0.05,100,7,7,25,61,leave_one_dataset_model_out,0.21875,0.5,0.29069767441860467,0.5,0.32
+medical_glm_kimi,Medical GLM/Kimi,best_accuracy,pubmedqa,glm_5_2,cups_lambda_0.05,100,3,3,16,78,leave_one_dataset_model_out,0.15789473684210525,0.5,0.1702127659574468,0.5,0.19
+medical_glm_kimi,Medical GLM/Kimi,best_accuracy,pubmedqa,kimi_k3,cups_lambda_0.05,100,0,4,1,95,leave_one_dataset_model_out,0.0,0.0,0.010416666666666666,1.0,0.01
+medical_glm_kimi,Medical GLM/Kimi,best_vs_cot_cpc,medmcqa,glm_5_2,cups_lambda_0.05,100,7,1,21,71,leave_one_dataset_model_out,0.25,0.875,0.22826086956521738,0.125,0.28
+medical_glm_kimi,Medical GLM/Kimi,best_vs_cot_cpc,medmcqa,kimi_k3,cups_lambda_0.05,100,5,2,2,91,leave_one_dataset_model_out,0.7142857142857143,0.7142857142857143,0.021505376344086023,0.2857142857142857,0.07
+medical_glm_kimi,Medical GLM/Kimi,best_vs_cot_cpc,medqa,glm_5_2,cups_lambda_0.05,100,14,3,11,72,leave_one_dataset_model_out,0.56,0.8235294117647058,0.13253012048192772,0.17647058823529413,0.25
+medical_glm_kimi,Medical GLM/Kimi,best_vs_cot_cpc,medqa,kimi_k3,cups_lambda_0.05,100,5,1,3,91,leave_one_dataset_model_out,0.625,0.8333333333333334,0.031914893617021274,0.16666666666666666,0.08
+medical_glm_kimi,Medical GLM/Kimi,best_vs_cot_cpc,medxpertqa_text,glm_5_2,cups_lambda_0.05,100,8,4,43,45,leave_one_dataset_model_out,0.1568627450980392,0.6666666666666666,0.48863636363636365,0.3333333333333333,0.51
+medical_glm_kimi,Medical GLM/Kimi,best_vs_cot_cpc,medxpertqa_text,kimi_k3,cups_lambda_0.05,100,7,7,25,61,leave_one_dataset_model_out,0.21875,0.5,0.29069767441860467,0.5,0.32
+medical_glm_kimi,Medical GLM/Kimi,best_vs_cot_cpc,pubmedqa,glm_5_2,cups_lambda_0.05,100,3,3,16,78,leave_one_dataset_model_out,0.15789473684210525,0.5,0.1702127659574468,0.5,0.19
+medical_glm_kimi,Medical GLM/Kimi,best_vs_cot_cpc,pubmedqa,kimi_k3,cups_lambda_0.05,100,0,4,1,95,leave_one_dataset_model_out,0.0,0.0,0.010416666666666666,1.0,0.01
+medical_glm_kimi,Medical GLM/Kimi,best_accuracy,medmcqa,glm_5_2,cups_lambda_0.05,100,7,1,20,72,leave_one_model_out,0.25925925925925924,0.875,0.21739130434782608,0.125,0.27
+medical_glm_kimi,Medical GLM/Kimi,best_accuracy,medmcqa,kimi_k3,cups_lambda_0.05,100,4,3,1,92,leave_one_model_out,0.8,0.5714285714285714,0.010752688172043012,0.42857142857142855,0.05
+medical_glm_kimi,Medical GLM/Kimi,best_accuracy,medqa,glm_5_2,cups_lambda_0.05,100,14,3,12,71,leave_one_model_out,0.5384615384615384,0.8235294117647058,0.14457831325301204,0.17647058823529413,0.26
+medical_glm_kimi,Medical GLM/Kimi,best_accuracy,medqa,kimi_k3,cups_lambda_0.05,100,5,1,3,91,leave_one_model_out,0.625,0.8333333333333334,0.031914893617021274,0.16666666666666666,0.08
+medical_glm_kimi,Medical GLM/Kimi,best_accuracy,medxpertqa_text,glm_5_2,cups_lambda_0.05,100,7,5,33,55,leave_one_model_out,0.175,0.5833333333333334,0.375,0.4166666666666667,0.4
+medical_glm_kimi,Medical GLM/Kimi,best_accuracy,medxpertqa_text,kimi_k3,cups_lambda_0.05,100,4,10,11,75,leave_one_model_out,0.26666666666666666,0.2857142857142857,0.12790697674418605,0.7142857142857143,0.15
+medical_glm_kimi,Medical GLM/Kimi,best_accuracy,pubmedqa,glm_5_2,cups_lambda_0.05,100,3,3,16,78,leave_one_model_out,0.15789473684210525,0.5,0.1702127659574468,0.5,0.19
+medical_glm_kimi,Medical GLM/Kimi,best_accuracy,pubmedqa,kimi_k3,cups_lambda_0.05,100,0,4,1,95,leave_one_model_out,0.0,0.0,0.010416666666666666,1.0,0.01
+medical_glm_kimi,Medical GLM/Kimi,best_vs_cot_cpc,medmcqa,glm_5_2,cups_lambda_0.05,100,7,1,20,72,leave_one_model_out,0.25925925925925924,0.875,0.21739130434782608,0.125,0.27
+medical_glm_kimi,Medical GLM/Kimi,best_vs_cot_cpc,medmcqa,kimi_k3,cups_lambda_0.05,100,4,3,1,92,leave_one_model_out,0.8,0.5714285714285714,0.010752688172043012,0.42857142857142855,0.05
+medical_glm_kimi,Medical GLM/Kimi,best_vs_cot_cpc,medqa,glm_5_2,cups_lambda_0.05,100,14,3,12,71,leave_one_model_out,0.5384615384615384,0.8235294117647058,0.14457831325301204,0.17647058823529413,0.26
+medical_glm_kimi,Medical GLM/Kimi,best_vs_cot_cpc,medqa,kimi_k3,cups_lambda_0.05,100,5,1,3,91,leave_one_model_out,0.625,0.8333333333333334,0.031914893617021274,0.16666666666666666,0.08
+medical_glm_kimi,Medical GLM/Kimi,best_vs_cot_cpc,medxpertqa_text,glm_5_2,cups_lambda_0.05,100,7,5,33,55,leave_one_model_out,0.175,0.5833333333333334,0.375,0.4166666666666667,0.4
+medical_glm_kimi,Medical GLM/Kimi,best_vs_cot_cpc,medxpertqa_text,kimi_k3,cups_lambda_0.05,100,4,10,11,75,leave_one_model_out,0.26666666666666666,0.2857142857142857,0.12790697674418605,0.7142857142857143,0.15
+medical_glm_kimi,Medical GLM/Kimi,best_vs_cot_cpc,pubmedqa,glm_5_2,cups_lambda_0.05,100,3,3,16,78,leave_one_model_out,0.15789473684210525,0.5,0.1702127659574468,0.5,0.19
+medical_glm_kimi,Medical GLM/Kimi,best_vs_cot_cpc,pubmedqa,kimi_k3,cups_lambda_0.05,100,0,4,1,95,leave_one_model_out,0.0,0.0,0.010416666666666666,1.0,0.01
+nonmedical_glm_kimi,Nonmedical GLM/Kimi,best_accuracy,gsm8k,glm_5_2,cups_lambda_0.15,100,8,0,5,87,item_oof,0.6153846153846154,1.0,0.05434782608695652,0.0,0.13
+nonmedical_glm_kimi,Nonmedical GLM/Kimi,best_accuracy,gsm8k,kimi_k3,cups_lambda_0.15,100,1,0,0,99,item_oof,1.0,1.0,0.0,0.0,0.01
+nonmedical_glm_kimi,Nonmedical GLM/Kimi,best_accuracy,mmlu_pro,glm_5_2,cups_lambda_0.15,100,7,1,16,76,item_oof,0.30434782608695654,0.875,0.17391304347826086,0.125,0.23
+nonmedical_glm_kimi,Nonmedical GLM/Kimi,best_accuracy,mmlu_pro,kimi_k3,cups_lambda_0.15,100,9,1,17,73,item_oof,0.34615384615384615,0.9,0.18888888888888888,0.1,0.26
+nonmedical_glm_kimi,Nonmedical GLM/Kimi,best_vs_cot_cpc,gsm8k,glm_5_2,cups_lambda_0.15,100,8,0,5,87,item_oof,0.6153846153846154,1.0,0.05434782608695652,0.0,0.13
+nonmedical_glm_kimi,Nonmedical GLM/Kimi,best_vs_cot_cpc,gsm8k,kimi_k3,cups_lambda_0.15,100,1,0,0,99,item_oof,1.0,1.0,0.0,0.0,0.01
+nonmedical_glm_kimi,Nonmedical GLM/Kimi,best_vs_cot_cpc,mmlu_pro,glm_5_2,cups_lambda_0.15,100,7,1,16,76,item_oof,0.30434782608695654,0.875,0.17391304347826086,0.125,0.23
+nonmedical_glm_kimi,Nonmedical GLM/Kimi,best_vs_cot_cpc,mmlu_pro,kimi_k3,cups_lambda_0.15,100,9,1,17,73,item_oof,0.34615384615384615,0.9,0.18888888888888888,0.1,0.26
+nonmedical_glm_kimi,Nonmedical GLM/Kimi,best_accuracy,gsm8k,glm_5_2,cups_lambda_0.005,100,8,0,6,86,leave_one_dataset_model_out,0.5714285714285714,1.0,0.06521739130434782,0.0,0.14
+nonmedical_glm_kimi,Nonmedical GLM/Kimi,best_accuracy,gsm8k,kimi_k3,cups_lambda_0.005,100,1,0,0,99,leave_one_dataset_model_out,1.0,1.0,0.0,0.0,0.01
+nonmedical_glm_kimi,Nonmedical GLM/Kimi,best_accuracy,mmlu_pro,glm_5_2,cups_lambda_0.005,100,7,1,21,71,leave_one_dataset_model_out,0.25,0.875,0.22826086956521738,0.125,0.28
+nonmedical_glm_kimi,Nonmedical GLM/Kimi,best_accuracy,mmlu_pro,kimi_k3,cups_lambda_0.005,100,9,1,23,67,leave_one_dataset_model_out,0.28125,0.9,0.25555555555555554,0.1,0.32
+nonmedical_glm_kimi,Nonmedical GLM/Kimi,best_vs_cot_cpc,gsm8k,glm_5_2,cups_lambda_0.005,100,8,0,6,86,leave_one_dataset_model_out,0.5714285714285714,1.0,0.06521739130434782,0.0,0.14
+nonmedical_glm_kimi,Nonmedical GLM/Kimi,best_vs_cot_cpc,gsm8k,kimi_k3,cups_lambda_0.005,100,1,0,0,99,leave_one_dataset_model_out,1.0,1.0,0.0,0.0,0.01
+nonmedical_glm_kimi,Nonmedical GLM/Kimi,best_vs_cot_cpc,mmlu_pro,glm_5_2,cups_lambda_0.005,100,7,1,21,71,leave_one_dataset_model_out,0.25,0.875,0.22826086956521738,0.125,0.28
+nonmedical_glm_kimi,Nonmedical GLM/Kimi,best_vs_cot_cpc,mmlu_pro,kimi_k3,cups_lambda_0.005,100,9,1,23,67,leave_one_dataset_model_out,0.28125,0.9,0.25555555555555554,0.1,0.32
+nonmedical_glm_kimi,Nonmedical GLM/Kimi,best_accuracy,gsm8k,glm_5_2,cups_lambda_0.01,100,8,0,5,87,leave_one_model_out,0.6153846153846154,1.0,0.05434782608695652,0.0,0.13
+nonmedical_glm_kimi,Nonmedical GLM/Kimi,best_accuracy,gsm8k,kimi_k3,cups_lambda_0.01,100,1,0,0,99,leave_one_model_out,1.0,1.0,0.0,0.0,0.01
+nonmedical_glm_kimi,Nonmedical GLM/Kimi,best_accuracy,mmlu_pro,glm_5_2,cups_lambda_0.01,100,7,1,24,68,leave_one_model_out,0.22580645161290322,0.875,0.2608695652173913,0.125,0.31
+nonmedical_glm_kimi,Nonmedical GLM/Kimi,best_accuracy,mmlu_pro,kimi_k3,cups_lambda_0.01,100,9,1,22,68,leave_one_model_out,0.2903225806451613,0.9,0.24444444444444444,0.1,0.31
+nonmedical_glm_kimi,Nonmedical GLM/Kimi,best_vs_cot_cpc,gsm8k,glm_5_2,cups_lambda_0.01,100,8,0,5,87,leave_one_model_out,0.6153846153846154,1.0,0.05434782608695652,0.0,0.13
+nonmedical_glm_kimi,Nonmedical GLM/Kimi,best_vs_cot_cpc,gsm8k,kimi_k3,cups_lambda_0.01,100,1,0,0,99,leave_one_model_out,1.0,1.0,0.0,0.0,0.01
+nonmedical_glm_kimi,Nonmedical GLM/Kimi,best_vs_cot_cpc,mmlu_pro,glm_5_2,cups_lambda_0.01,100,7,1,24,68,leave_one_model_out,0.22580645161290322,0.875,0.2608695652173913,0.125,0.31
+nonmedical_glm_kimi,Nonmedical GLM/Kimi,best_vs_cot_cpc,mmlu_pro,kimi_k3,cups_lambda_0.01,100,9,1,22,68,leave_one_model_out,0.2903225806451613,0.9,0.24444444444444444,0.1,0.31
+nonmedical_deepseek_flash,Nonmedical DeepSeek Flash,best_accuracy,gsm8k,deepseek_v4_flash,cups_lambda_0.05,100,23,1,74,2,item_oof,0.23711340206185566,0.9583333333333334,0.9736842105263158,0.041666666666666664,0.97
+nonmedical_deepseek_flash,Nonmedical DeepSeek Flash,best_accuracy,mmlu_pro,deepseek_v4_flash,cups_lambda_0.05,100,1,5,20,74,item_oof,0.047619047619047616,0.16666666666666666,0.2127659574468085,0.8333333333333334,0.21
+nonmedical_deepseek_flash,Nonmedical DeepSeek Flash,best_vs_cot_cpc,gsm8k,deepseek_v4_flash,cups_lambda_0.05,100,23,1,74,2,item_oof,0.23711340206185566,0.9583333333333334,0.9736842105263158,0.041666666666666664,0.97
+nonmedical_deepseek_flash,Nonmedical DeepSeek Flash,best_vs_cot_cpc,mmlu_pro,deepseek_v4_flash,cups_lambda_0.05,100,1,5,20,74,item_oof,0.047619047619047616,0.16666666666666666,0.2127659574468085,0.8333333333333334,0.21
+nonmedical_deepseek_flash,Nonmedical DeepSeek Flash,best_accuracy,gsm8k,deepseek_v4_flash,cups_lambda_0,100,24,0,76,0,leave_one_dataset_model_out,0.24,1.0,1.0,0.0,1.0
+nonmedical_deepseek_flash,Nonmedical DeepSeek Flash,best_accuracy,mmlu_pro,deepseek_v4_flash,cups_lambda_0,100,6,0,89,5,leave_one_dataset_model_out,0.06315789473684211,1.0,0.9468085106382979,0.0,0.95
+nonmedical_deepseek_flash,Nonmedical DeepSeek Flash,best_vs_cot_cpc,gsm8k,deepseek_v4_flash,cups_lambda_0.2,100,0,24,0,76,leave_one_dataset_model_out,0.0,0.0,0.0,1.0,0.0
+nonmedical_deepseek_flash,Nonmedical DeepSeek Flash,best_vs_cot_cpc,mmlu_pro,deepseek_v4_flash,cups_lambda_0.2,100,2,4,7,87,leave_one_dataset_model_out,0.2222222222222222,0.3333333333333333,0.07446808510638298,0.6666666666666666,0.09
+math500_core_deepseek_glm,MATH-500 DeepSeek/GLM,best_accuracy,math500,deepseek_v4_flash,cups_lambda_0.02,100,17,1,75,7,item_oof,0.18478260869565216,0.9444444444444444,0.9146341463414634,0.05555555555555555,0.92
+math500_core_deepseek_glm,MATH-500 DeepSeek/GLM,best_accuracy,math500,glm_5_2,cups_lambda_0.02,100,17,4,4,75,item_oof,0.8095238095238095,0.8095238095238095,0.05063291139240506,0.19047619047619047,0.21
+math500_core_deepseek_glm,MATH-500 DeepSeek/GLM,best_vs_cot_cpc,math500,deepseek_v4_flash,cups_lambda_0.02,100,17,1,75,7,item_oof,0.18478260869565216,0.9444444444444444,0.9146341463414634,0.05555555555555555,0.92
+math500_core_deepseek_glm,MATH-500 DeepSeek/GLM,best_vs_cot_cpc,math500,glm_5_2,cups_lambda_0.02,100,17,4,4,75,item_oof,0.8095238095238095,0.8095238095238095,0.05063291139240506,0.19047619047619047,0.21
+math500_core_deepseek_glm,MATH-500 DeepSeek/GLM,best_accuracy,math500,deepseek_v4_flash,cups_lambda_0,100,5,13,30,52,leave_one_dataset_model_out,0.14285714285714285,0.2777777777777778,0.36585365853658536,0.7222222222222222,0.35
+math500_core_deepseek_glm,MATH-500 DeepSeek/GLM,best_accuracy,math500,glm_5_2,cups_lambda_0,100,21,0,66,13,leave_one_dataset_model_out,0.2413793103448276,1.0,0.8354430379746836,0.0,0.87
+math500_core_deepseek_glm,MATH-500 DeepSeek/GLM,best_vs_cot_cpc,math500,deepseek_v4_flash,cups_lambda_0.08,100,0,18,1,81,leave_one_dataset_model_out,0.0,0.0,0.012195121951219513,1.0,0.01
+math500_core_deepseek_glm,MATH-500 DeepSeek/GLM,best_vs_cot_cpc,math500,glm_5_2,cups_lambda_0.08,100,1,20,4,75,leave_one_dataset_model_out,0.2,0.047619047619047616,0.05063291139240506,0.9523809523809523,0.05
+math500_core_deepseek_glm,MATH-500 DeepSeek/GLM,best_accuracy,math500,deepseek_v4_flash,cups_lambda_0,100,5,13,30,52,leave_one_model_out,0.14285714285714285,0.2777777777777778,0.36585365853658536,0.7222222222222222,0.35
+math500_core_deepseek_glm,MATH-500 DeepSeek/GLM,best_accuracy,math500,glm_5_2,cups_lambda_0,100,21,0,66,13,leave_one_model_out,0.2413793103448276,1.0,0.8354430379746836,0.0,0.87
+math500_core_deepseek_glm,MATH-500 DeepSeek/GLM,best_vs_cot_cpc,math500,deepseek_v4_flash,cups_lambda_0.08,100,0,18,1,81,leave_one_model_out,0.0,0.0,0.012195121951219513,1.0,0.01
+math500_core_deepseek_glm,MATH-500 DeepSeek/GLM,best_vs_cot_cpc,math500,glm_5_2,cups_lambda_0.08,100,1,20,4,75,leave_one_model_out,0.2,0.047619047619047616,0.05063291139240506,0.9523809523809523,0.05
+math500_minimax_m3,MATH-500 MiniMax-M3,best_accuracy,math500,minimax_m3,cups_lambda_0.02,100,8,1,4,87,item_oof,0.6666666666666666,0.8888888888888888,0.04395604395604396,0.1111111111111111,0.12
+math500_minimax_m3,MATH-500 MiniMax-M3,best_vs_cot_cpc,math500,minimax_m3,cups_lambda_0.02,100,8,1,4,87,item_oof,0.6666666666666666,0.8888888888888888,0.04395604395604396,0.1111111111111111,0.12
+math500_qwen_clean,MATH-500 Qwen clean,best_accuracy,math500,qwen_3_7_max_preview,cups_lambda_0,100,1,1,58,40,item_oof,0.01694915254237288,0.5,0.5918367346938775,0.5,0.59
+math500_qwen_clean,MATH-500 Qwen clean,best_vs_cot_cpc,math500,qwen_3_7_max_preview,cups_lambda_0.15,100,0,2,0,98,item_oof,0.0,0.0,0.0,1.0,0.0

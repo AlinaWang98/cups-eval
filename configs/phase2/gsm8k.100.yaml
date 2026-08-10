@@ -1,0 +1,17 @@
+dataset_name: gsm8k
+dataset:
+  type: gsm8k
+  name: openai/gsm8k
+  config_name: main
+  local_path: data/datasets/openai__gsm8k/main
+  split: test
+  sample_size: 100
+  seed: 42
+run:
+  max_usd: 8.0
+  strategy_timeout_seconds: 240
+  strategies:
+    - direct
+    - cot
+    - debate_2_judge
+    - planner_verifier

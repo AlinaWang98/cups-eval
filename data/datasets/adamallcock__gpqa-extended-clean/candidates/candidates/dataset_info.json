@@ -1,0 +1,36 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "candidates",
+  "dataset_name": "gpqa-extended-clean",
+  "dataset_size": 5002,
+  "description": "",
+  "download_size": 7906,
+  "features": {
+    "id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "disposition": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 12908,
+  "splits": {
+    "candidates": {
+      "name": "candidates",
+      "num_bytes": 5002,
+      "num_examples": 132,
+      "dataset_name": "gpqa-extended-clean"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

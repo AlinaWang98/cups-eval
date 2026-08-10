@@ -1,0 +1,8 @@
+dataset_name: mmlu_pro
+dataset:
+  type: mmlu_pro
+  name: TIGER-Lab/MMLU-Pro
+  local_path: data/datasets/TIGER-Lab__MMLU-Pro/default
+  split: test
+  sample_size: 300
+  seed: 42

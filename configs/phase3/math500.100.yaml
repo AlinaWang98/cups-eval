@@ -1,0 +1,26 @@
+dataset_name: math500
+dataset:
+  type: math500
+  name: HuggingFaceH4/MATH-500
+  local_path: data/datasets/HuggingFaceH4__MATH-500/default
+  split: test
+  sample_size: 100
+  seed: 42
+llm:
+  defaults:
+    max_tokens: 2048
+  profiles:
+    deepseek_v4_flash:
+      max_tokens: 2048
+    glm_5_2:
+      max_tokens: 2048
+    kimi_k3:
+      max_tokens: 2048
+run:
+  max_usd: 12.0
+  strategy_timeout_seconds: 360
+  strategies:
+    - direct
+    - cot
+    - debate_2_judge
+    - planner_verifier

@@ -1,0 +1,9 @@
+dataset_name: gsm8k
+dataset:
+  type: gsm8k
+  name: openai/gsm8k
+  config_name: main
+  local_path: data/datasets/openai__gsm8k/main
+  split: test
+  sample_size: 300
+  seed: 42

@@ -1,0 +1,14 @@
+base_config: mvp.medmcqa.yaml
+output_root: runs/phase3_math500_core_models
+workers_per_run: 1
+max_parallel_runs: 3
+model_workers:
+  deepseek_v4_flash: 2
+  glm_5_2: 1
+  kimi_k3: 1
+model_profiles:
+  - deepseek_v4_flash
+  - glm_5_2
+  - kimi_k3
+dataset_configs:
+  - phase3/math500.100.yaml

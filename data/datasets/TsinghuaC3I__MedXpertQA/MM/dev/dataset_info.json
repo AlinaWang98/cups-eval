@@ -1,0 +1,97 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "MM",
+  "dataset_name": "med_xpert_qa",
+  "dataset_size": 1776213,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/TsinghuaC3I/MedXpertQA@7e7c465a68eb2b866926bfa59c8c9d17a8daba65/MM/dev.jsonl": {
+      "num_bytes": 8254,
+      "checksum": null
+    },
+    "hf://datasets/TsinghuaC3I/MedXpertQA@7e7c465a68eb2b866926bfa59c8c9d17a8daba65/MM/test.jsonl": {
+      "num_bytes": 2017059,
+      "checksum": null
+    }
+  },
+  "download_size": 2025313,
+  "features": {
+    "id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "question": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "options": {
+      "A": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "B": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "C": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "D": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "E": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    "label": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "images": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "List"
+    },
+    "medical_task": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "body_system": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "question_type": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 3801526,
+  "splits": {
+    "dev": {
+      "name": "dev",
+      "num_bytes": 7594,
+      "num_examples": 5,
+      "dataset_name": "med_xpert_qa"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 1768619,
+      "num_examples": 2000,
+      "dataset_name": "med_xpert_qa"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

@@ -1,0 +1,18 @@
+dataset_name: medmcqa
+dataset:
+  type: medmcqa
+  name: openlifescienceai/medmcqa
+  local_path: data/datasets/openlifescienceai__medmcqa/default
+  split: validation
+  sample_size: 100
+  seed: 42
+  choice_type: single
+  cop_base: 0
+run:
+  max_usd: 8.0
+  strategy_timeout_seconds: 240
+  strategies:
+    - direct
+    - cot
+    - debate_2_judge
+    - planner_verifier

@@ -1,0 +1,124 @@
+dataset:
+  name: openlifescienceai/medmcqa
+  split: validation
+  sample_size: 30
+  seed: 42
+  choice_type: single
+  cop_base: 0
+
+llm:
+  active_profile_env: CUPS_MODEL_PROFILE
+  active_profile: deepseek_v4_pro
+  defaults:
+    temperature: 0.2
+    max_tokens: 512
+    timeout_seconds: 60
+    retry_attempts: 3
+    retry_backoff_seconds: 1.0
+  profiles:
+    deepseek_v4_pro:
+      provider: deepseek
+      base_url: https://api.deepseek.com
+      base_url_env: DEEPSEEK_BASE_URL
+      api_key_env: DEEPSEEK_API_KEY
+      model_env: DEEPSEEK_V4_PRO_MODEL
+      model: deepseek-v4-pro
+      thinking: disabled
+      pricing:
+        input_per_million_usd: 0.44
+        output_per_million_usd: 0.89
+    deepseek_v4_flash:
+      provider: deepseek
+      base_url: https://api.deepseek.com
+      base_url_env: DEEPSEEK_BASE_URL
+      api_key_env: DEEPSEEK_API_KEY
+      model_env: DEEPSEEK_V4_FLASH_MODEL
+      model: deepseek-v4-flash
+      thinking: disabled
+      pricing:
+        input_per_million_usd: 0.15
+        output_per_million_usd: 0.3
+    glm_5_2:
+      provider: glm
+      base_url: https://open.bigmodel.cn/api/paas/v4/
+      base_url_env: GLM_BASE_URL
+      api_key_env: GLM_API_KEY
+      model_env: GLM_MODEL
+      model: glm-5.2
+      max_tokens: 1024
+      pricing:
+        input_per_million_usd: 1.18
+        output_per_million_usd: 4.14
+    kimi_k3:
+      provider: kimi
+      base_url: https://api.moonshot.cn/v1
+      base_url_env: KIMI_BASE_URL
+      api_key_env: KIMI_API_KEY
+      model_env: KIMI_MODEL
+      model: kimi-k3
+      force_temperature: 1.0
+      retry_attempts: 5
+      retry_backoff_seconds: 2.0
+      pricing:
+        input_per_million_usd: 2.96
+        output_per_million_usd: 14.78
+    minimax_m3:
+      provider: minimax
+      base_url: https://api.minimaxi.com/v1
+      base_url_env: MINIMAX_BASE_URL
+      api_key_env: MINIMAX_API_KEY
+      model_env: MINIMAX_M3_MODEL
+      model: MiniMax-M3
+      max_tokens: 2048
+      pricing:
+        input_per_million_usd: 0.30
+        output_per_million_usd: 1.20
+    qwen_3_7_max_preview:
+      provider: qwen
+      base_url: https://dashscope.aliyuncs.com/compatible-mode/v1
+      base_url_env: QWEN_BASE_URL
+      api_key_env: DASHSCOPE_API_KEY
+      model_env: QWEN_MODEL
+      model: qwen3.7-max-preview
+      max_tokens: 2048
+      timeout_seconds: 120
+      retry_attempts: 3
+      retry_backoff_seconds: 2.0
+      pricing:
+        input_per_million_usd: 1.77
+        output_per_million_usd: 5.32
+    gpt_5_5:
+      provider: openai
+      base_url: https://api.openai.com/v1
+      base_url_env: OPENAI_BASE_URL
+      api_key_env: OPENAI_API_KEY
+      model_env: OPENAI_MODEL
+      model: gpt-5.5
+      pricing:
+        input_per_million_usd: 0.0
+        output_per_million_usd: 0.0
+    claude_sonnet_5:
+      provider: claude_openai_compat
+      base_url: https://example.invalid/v1
+      base_url_env: CLAUDE_OPENAI_COMPAT_BASE_URL
+      api_key_env: CLAUDE_OPENAI_COMPAT_API_KEY
+      model_env: CLAUDE_OPENAI_COMPAT_MODEL
+      model: claude-sonnet-5
+      pricing:
+        input_per_million_usd: 0.0
+        output_per_million_usd: 0.0
+
+pricing:
+  input_per_million_usd: 0.0
+  output_per_million_usd: 0.0
+
+router:
+  confidence_threshold: 0.70
+
+probe_router:
+  confidence_threshold: 0.70
+  verifier_threshold: 0.65
+
+run:
+  max_usd: 5.0
+  strategy_timeout_seconds: 240

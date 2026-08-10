@@ -1,0 +1,53 @@
+# Secrets and local environments
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+
+# Python caches and test caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# Python build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# Generated run outputs and provider logs
+runs/
+logs/
+*.log
+
+# Hugging Face caches and downloaded dataset payloads
+data/hf_cache/
+data/datasets/**/*.arrow
+data/datasets/**/*.parquet
+data/datasets/**/*.jsonl
+data/datasets/**/cache-*.arrow
+
+# Local report/render scratch artifacts
+reports/**/__pycache__/
+reports/**/docx_render_*/
+reports/**/*.inspect.ndjson
+reports/**/*.pptx.inspect.ndjson
+
+# Notebook/editor scratch
+.ipynb_checkpoints/
+*.swp
+*.swo
+
+# OS/editor files
+.DS_Store
+.idea/
+.vscode/

@@ -1,0 +1,672 @@
+{
+  "created_at": "2026-07-28T00:30:39.844828+00:00",
+  "cache_dir": "data/hf_cache",
+  "save_root": "data/datasets",
+  "entries": [
+    {
+      "label": "MedMCQA",
+      "dataset_id": "openlifescienceai/medmcqa",
+      "config": "default",
+      "required": true,
+      "save_path": "data/datasets/openlifescienceai__medmcqa/default",
+      "status": "downloaded",
+      "splits": {
+        "train": 182822,
+        "test": 6150,
+        "validation": 4183
+      },
+      "features": {
+        "train": [
+          "id",
+          "question",
+          "opa",
+          "opb",
+          "opc",
+          "opd",
+          "cop",
+          "choice_type",
+          "exp",
+          "subject_name",
+          "topic_name"
+        ],
+        "test": [
+          "id",
+          "question",
+          "opa",
+          "opb",
+          "opc",
+          "opd",
+          "cop",
+          "choice_type",
+          "exp",
+          "subject_name",
+          "topic_name"
+        ],
+        "validation": [
+          "id",
+          "question",
+          "opa",
+          "opb",
+          "opc",
+          "opd",
+          "cop",
+          "choice_type",
+          "exp",
+          "subject_name",
+          "topic_name"
+        ]
+      }
+    },
+    {
+      "label": "PubMedQA",
+      "dataset_id": "qiaojin/PubMedQA",
+      "config": "pqa_artificial",
+      "required": true,
+      "save_path": "data/datasets/qiaojin__PubMedQA/pqa_artificial",
+      "status": "downloaded",
+      "splits": {
+        "train": 211269
+      },
+      "features": {
+        "train": [
+          "pubid",
+          "question",
+          "context",
+          "long_answer",
+          "final_decision"
+        ]
+      }
+    },
+    {
+      "label": "PubMedQA",
+      "dataset_id": "qiaojin/PubMedQA",
+      "config": "pqa_labeled",
+      "required": true,
+      "save_path": "data/datasets/qiaojin__PubMedQA/pqa_labeled",
+      "status": "downloaded",
+      "splits": {
+        "train": 1000
+      },
+      "features": {
+        "train": [
+          "pubid",
+          "question",
+          "context",
+          "long_answer",
+          "final_decision"
+        ]
+      }
+    },
+    {
+      "label": "PubMedQA",
+      "dataset_id": "qiaojin/PubMedQA",
+      "config": "pqa_unlabeled",
+      "required": true,
+      "save_path": "data/datasets/qiaojin__PubMedQA/pqa_unlabeled",
+      "status": "downloaded",
+      "splits": {
+        "train": 61249
+      },
+      "features": {
+        "train": [
+          "pubid",
+          "question",
+          "context",
+          "long_answer"
+        ]
+      }
+    },
+    {
+      "label": "MedQA_USMLE_4_options",
+      "dataset_id": "GBaker/MedQA-USMLE-4-options",
+      "config": "default",
+      "required": true,
+      "save_path": "data/datasets/GBaker__MedQA-USMLE-4-options/default",
+      "status": "downloaded",
+      "note": "Standardized public 4-option MedQA/USMLE mirror. bigbio/med_qa uses a dataset script unsupported by this datasets version.",
+      "splits": {
+        "train": 10178,
+        "test": 1273
+      },
+      "features": {
+        "train": [
+          "question",
+          "answer",
+          "options",
+          "meta_info",
+          "answer_idx",
+          "metamap_phrases"
+        ],
+        "test": [
+          "question",
+          "answer",
+          "options",
+          "meta_info",
+          "answer_idx",
+          "metamap_phrases"
+        ]
+      }
+    },
+    {
+      "label": "MedXpertQA",
+      "dataset_id": "TsinghuaC3I/MedXpertQA",
+      "config": "Text",
+      "required": true,
+      "save_path": "data/datasets/TsinghuaC3I__MedXpertQA/Text",
+      "status": "downloaded",
+      "splits": {
+        "dev": 5,
+        "test": 2450
+      },
+      "features": {
+        "dev": [
+          "id",
+          "question",
+          "options",
+          "label",
+          "medical_task",
+          "body_system",
+          "question_type"
+        ],
+        "test": [
+          "id",
+          "question",
+          "options",
+          "label",
+          "medical_task",
+          "body_system",
+          "question_type"
+        ]
+      }
+    },
+    {
+      "label": "MedXpertQA",
+      "dataset_id": "TsinghuaC3I/MedXpertQA",
+      "config": "MM",
+      "required": true,
+      "save_path": "data/datasets/TsinghuaC3I__MedXpertQA/MM",
+      "status": "downloaded",
+      "splits": {
+        "dev": 5,
+        "test": 2000
+      },
+      "features": {
+        "dev": [
+          "id",
+          "question",
+          "options",
+          "label",
+          "images",
+          "medical_task",
+          "body_system",
+          "question_type"
+        ],
+        "test": [
+          "id",
+          "question",
+          "options",
+          "label",
+          "images",
+          "medical_task",
+          "body_system",
+          "question_type"
+        ]
+      }
+    },
+    {
+      "label": "MMLU_Pro",
+      "dataset_id": "TIGER-Lab/MMLU-Pro",
+      "config": "default",
+      "required": false,
+      "save_path": "data/datasets/TIGER-Lab__MMLU-Pro/default",
+      "status": "downloaded",
+      "note": "Full MMLU-Pro; medical/biology subsets can be filtered from category fields later.",
+      "splits": {
+        "test": 12032,
+        "validation": 70
+      },
+      "features": {
+        "test": [
+          "question_id",
+          "question",
+          "options",
+          "answer",
+          "answer_index",
+          "cot_content",
+          "category",
+          "src"
+        ],
+        "validation": [
+          "question_id",
+          "question",
+          "options",
+          "answer",
+          "answer_index",
+          "cot_content",
+          "category",
+          "src"
+        ]
+      }
+    },
+    {
+      "label": "GPQA_diamond_clean_public_mirror",
+      "dataset_id": "adamallcock/gpqa-diamond-clean",
+      "config": "exclusions",
+      "required": false,
+      "save_path": "data/datasets/adamallcock__gpqa-diamond-clean/exclusions",
+      "status": "downloaded",
+      "note": "Public clean mirror because official Idavidrein/gpqa is gated without HF auth.",
+      "splits": {
+        "exclusions": 9
+      },
+      "features": {
+        "exclusions": [
+          "id",
+          "category",
+          "reason",
+          "action",
+          "tier",
+          "source",
+          "stage",
+          "category_std"
+        ]
+      }
+    },
+    {
+      "label": "GPQA_diamond_clean_public_mirror",
+      "dataset_id": "adamallcock/gpqa-diamond-clean",
+      "config": "candidates",
+      "required": false,
+      "save_path": "data/datasets/adamallcock__gpqa-diamond-clean/candidates",
+      "status": "downloaded",
+      "note": "Public clean mirror because official Idavidrein/gpqa is gated without HF auth.",
+      "splits": {
+        "candidates": 47
+      },
+      "features": {
+        "candidates": [
+          "id",
+          "disposition"
+        ]
+      }
+    },
+    {
+      "label": "GPQA_extended_clean_public_mirror",
+      "dataset_id": "adamallcock/gpqa-extended-clean",
+      "config": "exclusions",
+      "required": false,
+      "save_path": "data/datasets/adamallcock__gpqa-extended-clean/exclusions",
+      "status": "downloaded",
+      "note": "Public clean mirror because official Idavidrein/gpqa is gated without HF auth.",
+      "splits": {
+        "exclusions": 48
+      },
+      "features": {
+        "exclusions": [
+          "id",
+          "category",
+          "reason",
+          "action",
+          "tier",
+          "source",
+          "stage",
+          "category_std"
+        ]
+      }
+    },
+    {
+      "label": "GPQA_extended_clean_public_mirror",
+      "dataset_id": "adamallcock/gpqa-extended-clean",
+      "config": "candidates",
+      "required": false,
+      "save_path": "data/datasets/adamallcock__gpqa-extended-clean/candidates",
+      "status": "downloaded",
+      "note": "Public clean mirror because official Idavidrein/gpqa is gated without HF auth.",
+      "splits": {
+        "candidates": 132
+      },
+      "features": {
+        "candidates": [
+          "id",
+          "disposition"
+        ]
+      }
+    },
+    {
+      "label": "GPQA_official",
+      "dataset_id": "Idavidrein/gpqa",
+      "config": "gpqa_extended",
+      "required": false,
+      "save_path": "data/datasets/Idavidrein__gpqa/gpqa_extended",
+      "status": "downloaded",
+      "note": "Official gated GPQA downloaded with user-provided HF_TOKEN; token was not saved.",
+      "splits": {
+        "train": 546
+      },
+      "features": {
+        "train": [
+          "Pre-Revision Question",
+          "Pre-Revision Correct Answer",
+          "Pre-Revision Incorrect Answer 1",
+          "Pre-Revision Incorrect Answer 2",
+          "Pre-Revision Incorrect Answer 3",
+          "Pre-Revision Explanation",
+          "Self-reported question-writing time (minutes)",
+          "Question",
+          "Correct Answer",
+          "Incorrect Answer 1",
+          "Incorrect Answer 2",
+          "Incorrect Answer 3",
+          "Explanation",
+          "Revision Comments (from Question Writer)",
+          "Subdomain",
+          "Writer's Difficulty Estimate",
+          "Extra Revised Question",
+          "Extra Revised Explanation",
+          "Extra Revised Correct Answer",
+          "Extra Revised Incorrect Answer 1",
+          "Extra Revised Incorrect Answer 2",
+          "Extra Revised Incorrect Answer 3",
+          "Non-Expert Validator Accuracy",
+          "Majority Non-Expert Vals Incorrect",
+          "Expert Validator Accuracy",
+          "Record ID",
+          "High-level domain",
+          "Question Writer",
+          "Feedback_EV_1",
+          "Validator Revision Suggestion_EV_1",
+          "Is First Validation_EV_1",
+          "Post hoc agreement_EV_1",
+          "Sufficient Expertise?_EV_1",
+          "Understand the question?_EV_1",
+          "Question Difficulty_EV_1",
+          "Validator Answered Correctly_EV_1",
+          "Self-reported time (minutes)_EV_1",
+          "Probability Correct_EV_1",
+          "Manual Correctness Adjustment_EV_1",
+          "Expert Validator_EV_1",
+          "Feedback_EV_2",
+          "Validator Revision Suggestion_EV_2",
+          "Is First Validation_EV_2",
+          "Post hoc agreement_EV_2",
+          "Sufficient Expertise?_EV_2",
+          "Understand the question?_EV_2",
+          "Question Difficulty_EV_2",
+          "Validator Answered Correctly_EV_2",
+          "Self-reported time (minutes)_EV_2",
+          "Probability Correct_EV_2",
+          "Manual Correctness Adjustment_EV_2",
+          "Expert Validator_EV_2",
+          "Feedback_NEV_1",
+          "Validator Answered Correctly_NEV_1",
+          "Explanation_NEV_1",
+          "Self-reported time (minutes)_NEV_1",
+          "Websites visited_NEV_1",
+          "Probability Correct_NEV_1",
+          "Manual Correctness Adjustment_NEV_1",
+          "Non-Expert Validator_NEV_1",
+          "Feedback_NEV_2",
+          "Validator Answered Correctly_NEV_2",
+          "Explanation_NEV_2",
+          "Self-reported time (minutes)_NEV_2",
+          "Websites visited_NEV_2",
+          "Probability Correct_NEV_2",
+          "Manual Correctness Adjustment_NEV_2",
+          "Non-Expert Validator_NEV_2",
+          "Feedback_NEV_3",
+          "Validator Answered Correctly_NEV_3",
+          "Explanation_NEV_3",
+          "Self-reported time (minutes)_NEV_3",
+          "Websites visited_NEV_3",
+          "Probability Correct_NEV_3",
+          "Manual Correctness Adjustment_NEV_3",
+          "Non-Expert Validator_NEV_3",
+          "Expert Validator Disagreement Category",
+          "Canary String"
+        ]
+      }
+    },
+    {
+      "label": "GPQA_official",
+      "dataset_id": "Idavidrein/gpqa",
+      "config": "gpqa_main",
+      "required": false,
+      "save_path": "data/datasets/Idavidrein__gpqa/gpqa_main",
+      "status": "downloaded",
+      "note": "Official gated GPQA downloaded with user-provided HF_TOKEN; token was not saved.",
+      "splits": {
+        "train": 448
+      },
+      "features": {
+        "train": [
+          "Pre-Revision Question",
+          "Pre-Revision Correct Answer",
+          "Pre-Revision Incorrect Answer 1",
+          "Pre-Revision Incorrect Answer 2",
+          "Pre-Revision Incorrect Answer 3",
+          "Pre-Revision Explanation",
+          "Self-reported question-writing time (minutes)",
+          "Question",
+          "Correct Answer",
+          "Incorrect Answer 1",
+          "Incorrect Answer 2",
+          "Incorrect Answer 3",
+          "Explanation",
+          "Revision Comments (from Question Writer)",
+          "Subdomain",
+          "Writer's Difficulty Estimate",
+          "Extra Revised Question",
+          "Extra Revised Explanation",
+          "Extra Revised Correct Answer",
+          "Extra Revised Incorrect Answer 1",
+          "Extra Revised Incorrect Answer 2",
+          "Extra Revised Incorrect Answer 3",
+          "Non-Expert Validator Accuracy",
+          "Majority Non-Expert Vals Incorrect",
+          "Expert Validator Accuracy",
+          "Record ID",
+          "High-level domain",
+          "Question Writer",
+          "Feedback_EV_1",
+          "Validator Revision Suggestion_EV_1",
+          "Is First Validation_EV_1",
+          "Post hoc agreement_EV_1",
+          "Sufficient Expertise?_EV_1",
+          "Understand the question?_EV_1",
+          "Question Difficulty_EV_1",
+          "Validator Answered Correctly_EV_1",
+          "Self-reported time (minutes)_EV_1",
+          "Probability Correct_EV_1",
+          "Manual Correctness Adjustment_EV_1",
+          "Expert Validator_EV_1",
+          "Feedback_EV_2",
+          "Validator Revision Suggestion_EV_2",
+          "Is First Validation_EV_2",
+          "Post hoc agreement_EV_2",
+          "Sufficient Expertise?_EV_2",
+          "Understand the question?_EV_2",
+          "Question Difficulty_EV_2",
+          "Validator Answered Correctly_EV_2",
+          "Self-reported time (minutes)_EV_2",
+          "Probability Correct_EV_2",
+          "Manual Correctness Adjustment_EV_2",
+          "Expert Validator_EV_2",
+          "Feedback_NEV_1",
+          "Validator Answered Correctly_NEV_1",
+          "Explanation_NEV_1",
+          "Self-reported time (minutes)_NEV_1",
+          "Websites visited_NEV_1",
+          "Probability Correct_NEV_1",
+          "Manual Correctness Adjustment_NEV_1",
+          "Non-Expert Validator_NEV_1",
+          "Feedback_NEV_2",
+          "Validator Answered Correctly_NEV_2",
+          "Explanation_NEV_2",
+          "Self-reported time (minutes)_NEV_2",
+          "Websites visited_NEV_2",
+          "Probability Correct_NEV_2",
+          "Manual Correctness Adjustment_NEV_2",
+          "Non-Expert Validator_NEV_2",
+          "Feedback_NEV_3",
+          "Validator Answered Correctly_NEV_3",
+          "Explanation_NEV_3",
+          "Self-reported time (minutes)_NEV_3",
+          "Websites visited_NEV_3",
+          "Probability Correct_NEV_3",
+          "Manual Correctness Adjustment_NEV_3",
+          "Non-Expert Validator_NEV_3",
+          "Expert Validator Disagreement Category",
+          "Canary String"
+        ]
+      }
+    },
+    {
+      "label": "GPQA_official",
+      "dataset_id": "Idavidrein/gpqa",
+      "config": "gpqa_diamond",
+      "required": false,
+      "save_path": "data/datasets/Idavidrein__gpqa/gpqa_diamond",
+      "status": "downloaded",
+      "note": "Official gated GPQA downloaded with user-provided HF_TOKEN; token was not saved.",
+      "splits": {
+        "train": 198
+      },
+      "features": {
+        "train": [
+          "Pre-Revision Question",
+          "Pre-Revision Correct Answer",
+          "Pre-Revision Incorrect Answer 1",
+          "Pre-Revision Incorrect Answer 2",
+          "Pre-Revision Incorrect Answer 3",
+          "Pre-Revision Explanation",
+          "Self-reported question-writing time (minutes)",
+          "Question",
+          "Correct Answer",
+          "Incorrect Answer 1",
+          "Incorrect Answer 2",
+          "Incorrect Answer 3",
+          "Explanation",
+          "Revision Comments (from Question Writer)",
+          "Subdomain",
+          "Writer's Difficulty Estimate",
+          "Extra Revised Question",
+          "Extra Revised Explanation",
+          "Extra Revised Correct Answer",
+          "Extra Revised Incorrect Answer 1",
+          "Extra Revised Incorrect Answer 2",
+          "Extra Revised Incorrect Answer 3",
+          "Non-Expert Validator Accuracy",
+          "Majority Non-Expert Vals Incorrect",
+          "Expert Validator Accuracy",
+          "Record ID",
+          "High-level domain",
+          "Question Writer",
+          "Feedback_EV_1",
+          "Validator Revision Suggestion_EV_1",
+          "Is First Validation_EV_1",
+          "Post hoc agreement_EV_1",
+          "Sufficient Expertise?_EV_1",
+          "Understand the question?_EV_1",
+          "Question Difficulty_EV_1",
+          "Validator Answered Correctly_EV_1",
+          "Self-reported time (minutes)_EV_1",
+          "Probability Correct_EV_1",
+          "Manual Correctness Adjustment_EV_1",
+          "Expert Validator_EV_1",
+          "Feedback_EV_2",
+          "Validator Revision Suggestion_EV_2",
+          "Is First Validation_EV_2",
+          "Post hoc agreement_EV_2",
+          "Sufficient Expertise?_EV_2",
+          "Understand the question?_EV_2",
+          "Question Difficulty_EV_2",
+          "Validator Answered Correctly_EV_2",
+          "Self-reported time (minutes)_EV_2",
+          "Probability Correct_EV_2",
+          "Manual Correctness Adjustment_EV_2",
+          "Expert Validator_EV_2",
+          "Feedback_NEV_1",
+          "Validator Answered Correctly_NEV_1",
+          "Explanation_NEV_1",
+          "Self-reported time (minutes)_NEV_1",
+          "Websites visited_NEV_1",
+          "Probability Correct_NEV_1",
+          "Manual Correctness Adjustment_NEV_1",
+          "Non-Expert Validator_NEV_1",
+          "Feedback_NEV_2",
+          "Validator Answered Correctly_NEV_2",
+          "Explanation_NEV_2",
+          "Self-reported time (minutes)_NEV_2",
+          "Websites visited_NEV_2",
+          "Probability Correct_NEV_2",
+          "Manual Correctness Adjustment_NEV_2",
+          "Non-Expert Validator_NEV_2",
+          "Feedback_NEV_3",
+          "Validator Answered Correctly_NEV_3",
+          "Explanation_NEV_3",
+          "Self-reported time (minutes)_NEV_3",
+          "Websites visited_NEV_3",
+          "Probability Correct_NEV_3",
+          "Manual Correctness Adjustment_NEV_3",
+          "Non-Expert Validator_NEV_3",
+          "Expert Validator Disagreement Category",
+          "Canary String"
+        ]
+      }
+    },
+    {
+      "label": "GPQA_official",
+      "dataset_id": "Idavidrein/gpqa",
+      "config": "gpqa_experts",
+      "required": false,
+      "save_path": "data/datasets/Idavidrein__gpqa/gpqa_experts",
+      "status": "downloaded",
+      "note": "Official gated GPQA downloaded with user-provided HF_TOKEN; token was not saved.",
+      "splits": {
+        "train": 60
+      },
+      "features": {
+        "train": [
+          "Name",
+          "Domain",
+          "Description of Expertise",
+          "Qualifications",
+          "Qualification Progress",
+          "Num Correct Expert Validations",
+          "Num Correct Non-Expert Validations",
+          "Expert Accuracy on Questions Written",
+          "Non-Expert Accuracy on Questions Written",
+          "Expert Accuracy",
+          "Non-Expert Accuracy"
+        ]
+      }
+    }
+  ],
+  "unavailable": [
+    {
+      "label": "MedQA_bigbio",
+      "dataset_id": "bigbio/med_qa",
+      "reason": "dataset script is unsupported by the installed datasets version; using GBaker/MedQA-USMLE-4-options instead",
+      "required": false
+    },
+    {
+      "label": "GPQA_formatted_mirror",
+      "dataset_id": "jeggers/gpqa_formatted",
+      "reason": "gated on Hugging Face; requires authenticated HF_TOKEN/license access",
+      "required": false
+    },
+    {
+      "label": "GPQA_ericzhao28_mirror",
+      "dataset_id": "ericzhao28/gpqa",
+      "reason": "repository contains no data files detectable by datasets",
+      "required": false
+    },
+    {
+      "label": "GPQA_formatted_TR_mirror",
+      "dataset_id": "FurkyT/gpqa_formatted_TR",
+      "reason": "gated on Hugging Face; requires authenticated HF_TOKEN/license access",
+      "required": false
+    }
+  ],
+  "updated_at": "2026-07-28T01:26:29.477390+00:00"
+}

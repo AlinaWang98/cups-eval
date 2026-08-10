@@ -1,0 +1,17 @@
+base_config: mvp.medmcqa.yaml
+output_root: runs/phase1
+workers_per_run: 4
+max_parallel_runs: 4
+model_workers:
+  glm_5_2: 1
+  kimi_k3: 1
+model_profiles:
+  - deepseek_v4_flash
+  - deepseek_v4_pro
+  - glm_5_2
+  - kimi_k3
+dataset_configs:
+  - datasets/medmcqa.yaml
+  - datasets/medqa.yaml
+  - datasets/pubmedqa.yaml
+  - datasets/medxpertqa_text.yaml

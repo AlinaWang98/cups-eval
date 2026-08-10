@@ -1,0 +1,16 @@
+dataset_name: mmlu_pro
+dataset:
+  type: mmlu_pro
+  name: TIGER-Lab/MMLU-Pro
+  local_path: data/datasets/TIGER-Lab__MMLU-Pro/default
+  split: test
+  sample_size: 100
+  seed: 42
+run:
+  max_usd: 8.0
+  strategy_timeout_seconds: 240
+  strategies:
+    - direct
+    - cot
+    - debate_2_judge
+    - planner_verifier

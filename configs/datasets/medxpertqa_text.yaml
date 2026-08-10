@@ -1,0 +1,9 @@
+dataset_name: medxpertqa_text
+dataset:
+  type: medxpertqa
+  name: TsinghuaC3I/MedXpertQA
+  config_name: Text
+  local_path: data/datasets/TsinghuaC3I__MedXpertQA/Text
+  split: test
+  sample_size: 300
+  seed: 42

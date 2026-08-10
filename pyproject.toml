@@ -1,0 +1,34 @@
+[project]
+name = "cups-eval"
+version = "0.1.0"
+description = "Cost-fair evaluation MVP for multi-agent LLM reasoning."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+  "datasets>=2.18.0",
+  "huggingface-hub>=1.8.0",
+  "openai>=1.93.0",
+  "pyyaml>=6.0.0",
+]
+
+[project.optional-dependencies]
+reports = [
+  "pandas>=2.0.0",
+  "pillow>=10.0.0",
+]
+
+[project.scripts]
+cups-eval = "cups_eval.cli:main"
+
+[dependency-groups]
+dev = [
+  "pytest>=8.0.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

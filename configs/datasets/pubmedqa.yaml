@@ -1,0 +1,9 @@
+dataset_name: pubmedqa
+dataset:
+  type: pubmedqa
+  name: qiaojin/PubMedQA
+  config_name: pqa_labeled
+  local_path: data/datasets/qiaojin__PubMedQA/pqa_labeled
+  split: train
+  sample_size: 300
+  seed: 42

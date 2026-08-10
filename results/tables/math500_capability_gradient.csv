@@ -1,0 +1,8 @@
+model,complete_q,direct,cot,planner_verifier,debate_2_judge,oracle,planner_gain,debate_gain,oracle_gap,status
+DeepSeek v4 flash,500,0.432,0.430,0.546,0.602,0.688,0.114,0.170,0.256,complete_full500_anchor
+GLM-5.2,100,0.720,0.720,0.840,0.850,0.930,0.120,0.130,0.210,complete
+MiniMax-M3,100,0.890,0.880,0.930,0.940,0.980,0.040,0.050,0.090,complete
+Qwen3.7-Max-Preview,100,0.930,0.920,0.940,0.930,0.950,0.010,0.000,0.020,complete_rerun_timeout3
+Kimi-K3,50,0.980,0.920,0.980,0.940,0.980,0.000,-0.040,0.000,early_stopped_ceiling_control
+GPT-5.5,50,0.940,0.960,0.940,0.980,0.980,0.000,0.040,0.040,frontier50_full5_timeout4
+claude-sonnet-5,50,0.780,0.840,0.940,0.920,0.960,0.160,0.140,0.180,frontier50_full5_timeout2

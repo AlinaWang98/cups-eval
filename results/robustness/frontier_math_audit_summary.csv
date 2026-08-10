@@ -1,0 +1,7 @@
+model,model_label,sample_label,audit_rows,equivalent,not_equivalent,unresolved,needs_blind_review,run_dir
+deepseek_v4_flash,DeepSeek v4 flash,full500_anchor,2500,1291,801,408,408,runs/phase3_math500_p0_full_anchor/20260803T071801Z/runs/math500/deepseek_v4_flash/20260803T071802Z
+glm_5_2,GLM-5.2,clean100,400,315,7,78,78,runs/phase3_math500_core_models/20260729T122614Z/runs/math500/glm_5_2/20260729T122615Z
+minimax_m3,MiniMax-M3,clean100,400,364,5,31,31,runs/phase3_minimax_math500/20260729T085816Z/runs/math500/minimax_m3/20260729T085817Z
+qwen_3_7_max_preview,Qwen3.7-Max-Preview,clean100,400,376,6,18,18,runs/phase3_qwen_math500_clean/20260730Tclean001/runs/math500/qwen_3_7_max_preview/20260730Tclean001
+gpt_5_5,GPT-5.5,frontier50_full5,250,239,1,10,10,runs/phase3_math500_frontier50/20260805T034724Z/runs/math500_frontier50/gpt_5_5/20260805T034725Z
+claude_sonnet_5,claude-sonnet-5,frontier50_full5,250,218,23,9,9,runs/phase3_math500_frontier50/20260805T034724Z/runs/math500_frontier50/claude_sonnet_5/20260805T034725Z

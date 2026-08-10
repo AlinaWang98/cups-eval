@@ -1,0 +1,10 @@
+base_config: mvp.medmcqa.yaml
+output_root: runs/phase3_minimax_math500
+workers_per_run: 1
+max_parallel_runs: 1
+model_workers:
+  minimax_m3: 2
+model_profiles:
+  - minimax_m3
+dataset_configs:
+  - phase2/math500.100.yaml

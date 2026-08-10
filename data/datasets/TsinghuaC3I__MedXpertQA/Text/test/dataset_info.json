@@ -1,0 +1,110 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "Text",
+  "dataset_name": "med_xpert_qa",
+  "dataset_size": 3824524,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/TsinghuaC3I/MedXpertQA@7e7c465a68eb2b866926bfa59c8c9d17a8daba65/Text/dev.jsonl": {
+      "num_bytes": 13465,
+      "checksum": null
+    },
+    "hf://datasets/TsinghuaC3I/MedXpertQA@7e7c465a68eb2b866926bfa59c8c9d17a8daba65/Text/test.jsonl": {
+      "num_bytes": 4163223,
+      "checksum": null
+    }
+  },
+  "download_size": 4176688,
+  "features": {
+    "id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "question": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "options": {
+      "A": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "B": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "C": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "D": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "E": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "F": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "G": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "H": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "I": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "J": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    },
+    "label": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "medical_task": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "body_system": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "question_type": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 8001212,
+  "splits": {
+    "dev": {
+      "name": "dev",
+      "num_bytes": 12696,
+      "num_examples": 5,
+      "dataset_name": "med_xpert_qa"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 3811828,
+      "num_examples": 2450,
+      "dataset_name": "med_xpert_qa"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "exclusions",
+  "dataset_name": "gpqa-diamond-clean",
+  "dataset_size": 1252,
+  "description": "",
+  "download_size": 1990,
+  "features": {
+    "id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "category": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "reason": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "action": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "tier": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "source": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "stage": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "category_std": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 3242,
+  "splits": {
+    "exclusions": {
+      "name": "exclusions",
+      "num_bytes": 1252,
+      "num_examples": 9,
+      "dataset_name": "gpqa-diamond-clean"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

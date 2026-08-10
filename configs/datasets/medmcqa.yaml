@@ -1,0 +1,10 @@
+dataset_name: medmcqa
+dataset:
+  type: medmcqa
+  name: openlifescienceai/medmcqa
+  local_path: data/datasets/openlifescienceai__medmcqa/default
+  split: validation
+  sample_size: 300
+  seed: 42
+  choice_type: single
+  cop_base: 0

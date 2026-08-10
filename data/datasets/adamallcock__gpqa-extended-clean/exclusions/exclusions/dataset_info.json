@@ -1,0 +1,60 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "exclusions",
+  "dataset_name": "gpqa-extended-clean",
+  "dataset_size": 6234,
+  "description": "",
+  "download_size": 10170,
+  "features": {
+    "id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "category": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "reason": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "action": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "tier": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "source": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "stage": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "category_std": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 16404,
+  "splits": {
+    "exclusions": {
+      "name": "exclusions",
+      "num_bytes": 6234,
+      "num_examples": 48,
+      "dataset_name": "gpqa-extended-clean"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

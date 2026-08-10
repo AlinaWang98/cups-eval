@@ -1,0 +1,36 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "candidates",
+  "dataset_name": "gpqa-diamond-clean",
+  "dataset_size": 1673,
+  "description": "",
+  "download_size": 2707,
+  "features": {
+    "id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "disposition": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 4380,
+  "splits": {
+    "candidates": {
+      "name": "candidates",
+      "num_bytes": 1673,
+      "num_examples": 47,
+      "dataset_name": "gpqa-diamond-clean"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

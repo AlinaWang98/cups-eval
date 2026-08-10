@@ -1,0 +1,7 @@
+scope_id,scope_label,evaluation_regime,dataset,model,reason,source_path
+nonmedical_deepseek_flash,Nonmedical DeepSeek Flash,leave_one_model_out,gsm8k;mmlu_pro,deepseek_v4_flash,CUPS leave_one_model_out requires at least two groups; found 1,runs/phase2_nonmedical_sanity_deepseek_flash/20260729T020951Z
+math500_minimax_m3,MATH-500 MiniMax-M3,leave_one_dataset_model_out,math500,minimax_m3,CUPS leave_one_dataset_model_out requires at least two groups; found 1,runs/phase3_minimax_math500/20260729T085816Z
+math500_minimax_m3,MATH-500 MiniMax-M3,leave_one_model_out,math500,minimax_m3,CUPS leave_one_model_out requires at least two groups; found 1,runs/phase3_minimax_math500/20260729T085816Z
+math500_qwen_clean,MATH-500 Qwen clean,leave_one_dataset_model_out,math500,qwen_3_7_max_preview,CUPS leave_one_dataset_model_out requires at least two groups; found 1,runs/phase3_qwen_math500_clean/20260730Tclean001
+math500_qwen_clean,MATH-500 Qwen clean,leave_one_model_out,math500,qwen_3_7_max_preview,CUPS leave_one_model_out requires at least two groups; found 1,runs/phase3_qwen_math500_clean/20260730Tclean001
+math500_kimi_k3,MATH-500 Kimi-K3 ceiling-control,,math500,kimi_k3,"raw ceiling-control exists, but router_features.csv is absent; CUPS requires feature rows",runs/phase3_math500_core_models/20260729T122614Z/runs/math500/kimi_k3/20260729T122615Z/raw_predictions.jsonl

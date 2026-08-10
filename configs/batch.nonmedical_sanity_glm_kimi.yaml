@@ -1,0 +1,13 @@
+base_config: mvp.medmcqa.yaml
+output_root: runs/phase2_nonmedical_sanity
+workers_per_run: 1
+max_parallel_runs: 2
+model_workers:
+  glm_5_2: 2
+  kimi_k3: 2
+model_profiles:
+  - glm_5_2
+  - kimi_k3
+dataset_configs:
+  - phase2/gsm8k.100.yaml
+  - phase2/mmlu_pro.100.yaml
